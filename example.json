@@ -1,0 +1,63 @@
+{
+  "hash": "hash-of-contents",
+  "locations": [
+    {
+      "id": 0,
+      "name": "work-macbook",
+      "queue": [
+        3
+      ]
+    },
+    {
+      "id": 1,
+      "name": "personal",
+      "queue": []
+    }
+  ],
+  "contents": [
+    {
+      "id": 0,
+      "name": "dirname",
+      "type": 1,
+      "modified": "timestamp",
+      "size": 3722,
+      "parent": null
+    },
+    {
+      "id": 1,
+      "name": "filename",
+      "type": 0,
+      "modified": "timestamp",
+      "size": 1234,
+      "parent": 0
+    },
+    {
+      "id": 2,
+      "name": "dirname",
+      "type": 1,
+      "modified": "timestamp",
+      "size": 1234,
+      "parent": 0,
+      "children": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "filename",
+      "type": 0,
+      "modified": "timestamp",
+      "size": 1234,
+      "parent": 2
+    },
+    {
+      "id": 4,
+      "name": "filename",
+      "type": 0,
+      "modified": "timestamp",
+      "size": 1234,
+      "parent": 2
+    }
+  ]
+}
