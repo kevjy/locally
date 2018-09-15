@@ -1,2 +1,11 @@
 *.class
 *.log
+
+# ENSIME
+.ensime
+.ensime_cache/
+ensime.sbt
+
+# Scala
+target/
+lib_managed/
