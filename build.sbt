@@ -7,6 +7,7 @@ lazy val nobox = (project in file("."))
     scalacOptions ++= compilerOptions,
     addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.7"),
     libraryDependencies ++= Seq(
+      "com.google.cloud" % "google-cloud-storage" % "1.44.0",
       "org.typelevel" %% "cats-core" % "1.1.0",
       "org.typelevel" %% "cats-effect" % "1.0.0-RC2",
       "org.scalactic" %% "scalactic" % "3.0.5" % Test,
